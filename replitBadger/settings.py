@@ -144,4 +144,4 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 try:
     from replitBadger.local_settings import *
 except ImportError:
-    print("A local_settings.py file is required to run this projet")
+    raise Exception("A local_settings.py file is required to run this projet")
