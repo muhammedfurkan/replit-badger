@@ -1,0 +1,1 @@
+web: gunicorn replit-badger.wsgi
