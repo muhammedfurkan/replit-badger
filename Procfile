@@ -1,1 +1,1 @@
-web: gunicorn replit-badger.wsgi
+web: gunicorn replitBadger.wsgi
