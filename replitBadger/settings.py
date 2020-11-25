@@ -132,7 +132,7 @@ CSRF_COOKIE_SECURE = True
 SECURE_HSTS_SECONDS = 1
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
-SECURE_SSL_REDIRECT = True
+SECURE_SSL_REDIRECT = False
 
 
 # Crispy Forms
@@ -144,4 +144,4 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 try:
     from replitBadger.local_settings import *
 except ImportError:
-    raise Exception("A local_settings.py file is required to run this projet")
+    pass
